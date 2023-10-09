@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+ *{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+body{
+    background-image: url(./imgg/Desktop.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+
+.continer{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* content */
+
+.servis{
+    display: flex;
+    justify-content: center;
+    margin-top: 121px;
+}
+
+.content{
+    width: 525px;
+    margin-top: 120px;
+    margin-right: 45px;
+}
+
+.content_title{
+    color: #FFF;
+font-size: 50px;
+font-weight: 700;
+line-height: 55px; 
+letter-spacing: -0.521px;
+margin-bottom: 11px;
+}
+
+.content_text{
+    color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; 
+}
+
+
+/* bootton */
+
+.botton_text{
+    color: #FFF;
+font-size: 15px;
+font-weight: 700;
+line-height: 26px; 
+letter-spacing: 0.268px;
+border-radius: 10px;
+background: #5E54A4;
+box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+width: 545px;
+padding: 17px 110px;
+margin-bottom: 24px;
+}
+
+.bootton_link{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 
+}
+
+
+/* boxx */
+
+.input{
+    width: 541px;
+    height: 474px;
+    background-color: #fff;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    align-items: center;
+}
+
+input{
+width: 460px;
+height: 56px;
+border-radius: 5px;
+border: 1px solid #DEDEDE;
+background: #FFF;
+margin-bottom: 20px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+#name{
+    margin-top: 40px;
+}
+
+
+.btn{
+    color: #FFF;
+    width: 460px;
+    padding: 15px 133px;
+    margin-left: 40px;
+    border-radius: 5px;
+background: #38CC8B;
+box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+}
+
+.btn:hover{
+    border-radius: 5px;
+background: #77E2B3;
+box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+}
+
+.text{
+    color: #BAB7D4;
+text-align: center;
+font-size: 11px;
+font-weight: 500;
+line-height: 26px;
+}
+
+.link{
+    color: #FF7979;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 26px;
+    display: inline;
+}
+
+.flexx{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 85px;
+}
